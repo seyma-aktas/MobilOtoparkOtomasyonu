@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="@dimen/cardview_compat_inset_shadow"
+    android:paddingBottom="@dimen/cardview_compat_inset_shadow"
+    android:background="@drawable/arkaplan"
+    tools:context=".Activity.KullaniciGiris"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="149dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="2dp"
+                android:padding="16dp"
+                android:src="@drawable/smallcar" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <Button
+                android:id="@+id/araclistele"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="ARAÇ LİSTESİ"
+                android:textAllCaps="false"
+                android:textColor="#f16f7d"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/kazanchesapla"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="GÜNLÜK KAZANÇ"
+                android:textAllCaps="false"
+                android:textColor="#f16f7d"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/aracgiris"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="ARAÇ GİRİŞ EKRANI"
+                android:textAllCaps="false"
+                android:textColor="#f16f7d"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/araccikis"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="ARAÇ ÇIKIŞ EKRANI"
+                android:textAllCaps="false"
+                android:textColor="#f16f7d"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/musteriyegec"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="MÜŞTERİYE GEÇİŞ"
+                android:textAllCaps="false"
+                android:textColor="#f16f7d"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/gorevli_ekle"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:clickable="true"
+                android:onClick="ekleme_gecis"
+                android:padding="16dp"
+                android:text="GÖREVLİ EKLEME"
+                android:textAllCaps="false"
+                android:textColor="#f16f7d"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/silme"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:clickable="true"
+                android:onClick="silme_gecis"
+                android:padding="16dp"
+                android:text="GÖREVLİ SİLME"
+                android:textAllCaps="false"
+                android:textColor="#f16f7d"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

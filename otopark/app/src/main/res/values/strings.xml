@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">otopark</string>
+    <string-array name="marka">
+        <item>BMW</item>
+        <item>Mercedes</item>
+        <item>Audi</item>
+        <item>Honda</item>
+        <item>Opel</item>
+        <item>Renault</item>
+        <item>Nissan</item>
+        <item>Toyota</item>
+        <item>Hundai</item>
+        <item>Diğer</item>
+    </string-array>
+</resources>

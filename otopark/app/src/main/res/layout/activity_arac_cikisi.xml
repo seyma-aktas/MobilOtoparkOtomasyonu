@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="@dimen/cardview_compat_inset_shadow"
+    android:paddingBottom="@dimen/cardview_compat_inset_shadow"
+    android:background="#8C9EFF"
+    tools:context=".Activity.KullaniciGiris"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="340dp"
+                android:layout_height="127dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="2dp"
+                android:padding="1dp"
+                android:src="@drawable/bar" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db" />
+
+
+            <EditText
+                android:id="@+id/plaka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginBottom="2dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/plaka"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="PLAKA"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColorHint="#fff" />
+
+
+            <EditText
+                android:id="@+id/cikissaati"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_margin="7dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="2dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/clock"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="ÇIKIŞ SAATİ"
+                android:inputType="datetime"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColorHint="#fff" />
+            <EditText
+                android:id="@+id/ucret"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginStart="68dp"
+                android:layout_marginBottom="2dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/plaka"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="ÜCRET"
+                android:inputType="text"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textColorHint="#fff" />
+
+
+
+
+
+            <Button
+                android:id="@+id/cikisionayla"
+                style="@style/Base.TextAppearance.AppCompat.Body2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="ÇIKIŞI ONAYLA"
+                android:textAllCaps="false"
+                android:textColor="#f16f7d"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
